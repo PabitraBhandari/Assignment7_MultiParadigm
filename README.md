@@ -21,23 +21,29 @@ Given a list of integers, each version calculates:
 | Python   | Object-Oriented    | Class-based, using encapsulation and built-in tools |
 
 ## What You'll Find Inside
-
+```
 MultiParadigmStats/
 ├── C/           → Pure procedural code with functions and arrays  
 ├── OCaml/       → Functional approach using recursion and lists  
-├── Python/      → Class-based object-oriented implementation   
+├── Python/      → Class-based object-oriented implementation
+```
 
 ## Run It Yourself
 
 ### C
+```bash
 cd C  
 gcc stats.c -o stats  
 ./stats
-
+```
 ### OCaml
+```bash
 cd OCaml  
 ocaml stats.ml
+```
 
 ### Python
+```bash
 cd Python  
 python3 stats.py
+```
